@@ -1,0 +1,24 @@
+body {
+ color: rgb(0, 0, 0);
+ font-size: 20px;
+ background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkwE7CabpA6kmy5bPpEuKSXeIPE3ly9ppW_A&shttps://people.com/thmb/tkLFh4G9oyG18Kl8g1N5967_VhI=/4000x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(599x0:601x2)/Shaquille-O-Neal-jimmy-kimmel-1003-aae7ad6d83f445879d2a152a44563d04.jpg");
+ background-size: cover; 
+ background-attachment: fixed;
+ font-family: 'Times New Roman', Times, serif;
+}
+h1 {
+ color: rgb(255, 0, 0);
+ font-family: "Noto Sans KR", sans-serif;
+ font-optical-sizing: auto;
+ font-weight: bold;
+ font-style: normal;
+}
+h2 {
+ color: rgb(0, 0, 0);
+}
+p {
+ color: rgb(255, 0, 0);
+}
+a {
+ color: rgb(255, 255, 255);
+}
