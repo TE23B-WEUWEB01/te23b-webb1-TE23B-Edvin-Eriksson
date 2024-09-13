@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body
+{
+    background-image: url("bilder/prem-kurumpanai-b8RQN7Wtu34-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+h1
+{
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    color: #fff;
+    font-weight: 700;
+    font-size: 100px;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 0 pink;
+    margin-top: 100px;
+}
+h2
+{
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 50px;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 0 pink;
+    margin-top: 50px;
+}
+p
+{
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 25px;
+    text-transform: uppercase;
+    
+}
+a   
+{
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 25px;
+    color: white;
+    background-color: pink;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    margin-top: 5000px;
+}
