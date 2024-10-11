@@ -1,0 +1,47 @@
+body {
+    background-color: #4b4033; /* Mörk bakgrund */
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+    letter-spacing: 10px;
+    text-shadow: 2px 2px 4px #000;
+}
+
+div.kontainer {
+    background-color: #6d7745; /* Grön bakgrund för postcontainer */
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+div.kontainer img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border: solid 5px white;
+}
+
+div.kontainer h2 {
+    color: #fff;
+    margin: 0;
+}
+
+div.kontainer h3 {
+    color: #f3eacb;
+    font-style: italic;
+    margin: 5px 0;
+}
+
+div.kontainer p {
+    color: #f3eacb;
+}
