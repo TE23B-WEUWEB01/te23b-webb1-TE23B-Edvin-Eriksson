@@ -30,6 +30,16 @@ body {
 .box {
     background-color: #5a5a5a;
     color: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    gap: 20px;
+    border-radius: 10px;
+}
+.kolumner
+{
+     display: flex;
+     gap: 30px;
 }
 /* Rubrikerna */
 
@@ -39,15 +49,18 @@ h1{
     font-size: 60px;
     font-style: normal;
     text-transform: uppercase;
+    margin-bottom: 20px;
   }
 
 h2{
+    margin-bottom: 20px;
 
 }
 /* Innehållet */
 
 img{
     width: 100%;
+    border-radius: 30px;
 }
 
 p{
