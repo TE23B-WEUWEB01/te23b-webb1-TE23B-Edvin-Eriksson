@@ -1,0 +1,92 @@
+/* Simple CSS reset */
+html {
+    box-sizing: border-box;
+}
+*,*:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #465c64;
+}
+
+.kontainer{
+    width: 800px;
+    margin: auto;
+    background-color: #7daaca;
+    padding: 20px;
+
+}
+
+ul{
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 0 20px;
+
+}
+
+.kontainer ul li{
+
+}
+
+.kontainer ul a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #465c64;
+    padding: 10px;
+    border-radius: 3px;
+    width: 140px;
+    display: inline-block;
+    box-shadow: 2px 2px 0 #3a4d54;
+    text-align: center;
+
+}
+.kontainer .Active a:hover
+{
+    background-color: #374a50;
+}
+.kontainer ul .Active{
+    background-color: #374a50;
+
+}
+
+.kontainer h1{
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    margin-bottom: 5px;
+
+}
+
+.kontainer p{
+    font-family: "Roboto", sans-serif;
+}
+
+.kontainer .tack{
+
+}
+
+.kontainer figure{
+    width: 300px;
+    margin: auto;
+    padding: 15px;
+    background-color: #EBF2FA;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+}
+
+img{
+    width: 100%;
+    border: 5px;
+}
+
+figcaption{
+
+}
