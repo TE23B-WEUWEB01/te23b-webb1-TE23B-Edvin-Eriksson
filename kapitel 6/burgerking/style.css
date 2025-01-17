@@ -1,12 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
 
 
-/* 
-.modak-regular {
-  font-family: "Modak", serif;
-  font-weight: 400;
-  font-style: normal;
-} */
 /* Enkel CSS-reset */
 html {
     box-sizing: border-box;
@@ -19,20 +13,80 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
     padding: 0;
 }
 
+/* bg färg #FBF7F1
+burgare bg färg #F5EBDC
+knapp fräg #CC2200
+text färg #502314 
+/* sidalayout */
+body {
+    background-color: #FBF7F1;
+}
+.kontainer {
+    width: 1200px;
+    margin: auto;
+    font-family: "Modak", serif;
+    font-weight: 450;
+    font-style: normal;
+}
 
-/* Sidlayout */
-body {}
+/* sidhuvud */
+.sidhuvud {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-bottom: 2px solid #dedede;
+}
+.sidhuvud .meny {
+    padding: 10px;
+}
+.sidhuvud .meny a {
+    text-decoration: none;
+    color: #502314;
+    padding: 10px;
+}
+.sidhuvud .erbjudande {
+    text-decoration: none;
+    color: #CC2200;
+    border: 3px solid #CC2200;
+    border-radius: 5px;
+    padding: 10px;
+}
 
-.kontainer {}
+/* .innehall */
+.innehall {
 
-
-/* Sidhuvud */
-.sidhuvud {}
-
-.sidhuvud .meny {}
-
-.sidhuvud .meny a {}
-
-.sidhuvud .erbjudande {}
-
-/* Sidinnehåll */
+}
+.innehall h2 {
+    font-weight: 400;
+    font-size: 45px;
+    padding: 20px;
+}
+.innehall .kolumner-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.innehall .kolumner-3 .burgare {
+    border-radius: 10px;
+    background-color: #F5EBDC;
+    text-align: center;
+    height: 150px;
+    padding: 30px;
+    transition-duration: 300ms;
+    cursor: pointer;
+}
+.innehall .kolumner-3 .burgare:hover{
+    transition-duration: 300ms;
+    height: 500px;
+}
+.innehall .kolumner-3 .burgare img {
+    width: 75%;
+    margin-top: 40px;
+}
+.innehall .kolumner-3 .burgare img.fix{
+    margin-top: 40px;
+    margin-bottom: 60px;
+}   
+.innehall .kolumner-3 .burgare p {
+    font-size: 25px;
+}
