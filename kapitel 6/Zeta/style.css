@@ -1,0 +1,81 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+.kontainer {
+    background-image:url(./bilder/image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.kontainer .sidhuvud{
+    width: 1200px;
+    margin: auto;
+    font-family: serif;
+    font-weight: 450;
+    font-style: normal;
+}
+
+.sidhuvud {
+    width: 1200px;
+    margin: auto;
+    font-family: serif;
+    font-weight: 450;
+    font-style: normal;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+
+    /* padding-bottom: 20px; */
+    /* border-bottom: 2px solid #dedede; */
+}
+.sidhuvud .meny {
+    padding: 10px;
+}
+.sidhuvud img
+{
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
+    width: 20%;
+}
+.sidhuvud a {
+    padding-top: 30px;
+    text-decoration: none;
+    color: white;
+}
+.innehåll {
+    width: 1200px;
+    margin: auto;
+    font-family:  serif;
+    font-weight: 450;
+    font-style: normal;
+    background-color: white;
+}
+.innehåll h1 {
+    text-align: center;
+}
+.innehåll h3 {
+    text-align: center;
+}
+
+.innehåll .kolumner-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    width: 100%;
+}
+
+.innehåll .kolumner-4 .produkt img.produkterbilder{
+ width: 100%;
+}
+.innehåll .kolumner-4 .produkt p{
+
+}
