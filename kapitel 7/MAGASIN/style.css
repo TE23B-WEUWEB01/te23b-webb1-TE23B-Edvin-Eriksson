@@ -1,0 +1,62 @@
+/* CSS-reset */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+  }
+  img {
+    max-width: 100%;
+  }
+  
+  /* Klassisk layout med header, nav, main, aside och footer */
+  .kontainer {
+    width: 800px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas:
+      "sidhuvud sidhuvud sidhuvud"
+      "artikel artikel artikel"
+      "artikel-3 artikel-3 artikel-3"
+      "sidfot sidfot sidfot";
+
+      gap: 20px;
+  }
+  
+  header {
+    grid-area: sidhuvud;
+    background-color: yellow; 
+    min-height: 10vh;
+  }
+  
+  nav {
+    grid-area: meny;
+    background-color: green;
+    min-height: 80vh;
+  }
+  
+  main {
+    grid-area: artiklar;
+    background-color: purple;
+  }
+  
+  article {
+    background-color: #d0ffd0;
+    grid-area: artikel-3;
+  }
+
+  aside {
+    grid-area: sidebar;
+    background-color: blue;
+  }
+  
+  footer {
+    grid-area: sidfot;
+    background-color: red;
+    height: 10vh;
+  }

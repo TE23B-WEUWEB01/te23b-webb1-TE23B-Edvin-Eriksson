@@ -1,0 +1,65 @@
+/* CSS-reset */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+  }
+  img {
+    max-width: 100%;
+  }
+  
+  /* Klassisk layout med header, nav, main, aside och footer */
+  .kontainer {
+    display: grid;
+    grid-template-areas:
+      "sidhuvud sidhuvud sidhuvud"
+      "meny meny meny"
+      "feature art1 art2"
+      "art3 art3 art3"
+      "sidfot sidfot sidfot";
+    grid-template-columns: 1fr 2fr 1fr;
+    width: 1400px;
+    margin: auto;   
+
+  }
+  body{
+    background-color: aliceblue;
+  }
+  
+  header {
+    grid-area: sidhuvud;
+    background-color:bisque;
+  }
+  
+  nav {
+    grid-area: meny;
+    background-color: aqua;
+    
+  }
+  .featured{
+    grid-area: feature;
+    background-color: crimson;
+  }
+  
+  .art1 {
+    grid-area: art1;
+    background-color: blanchedalmond;
+  } 
+    .art2 {
+    grid-area: art2;
+    background-color: rebeccapurple;
+  }
+    .art3 {
+    grid-area: art3;
+    background-color: blanchedalmond;
+  }
+   
+  footer {
+    grid-area: sidfot;
+    background-color:chocolate;
+  }
