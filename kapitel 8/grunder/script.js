@@ -59,14 +59,17 @@
 // } else {
 //     alert("Jag gillar det "+ djur + "också");
 // }
-var loop = true;
-while (loop == true) {
-    var brutto = prompt("Vad är din lön före skatt?");
-    var skatt = prompt("Vad är din skatt?");
-    var inkomst = Number(brutto) * (100 - Number(skatt)) / 100;
-    if (inkomst < brutto) {
-        alert("Din lön är " + inkomst);
-        loop = false;
-    }
-    else (alert("du måste skriva in en siffra mer symboler eller bokstäver"))
-}
+// var loop = true;
+// while (loop == true) {
+//     var brutto = prompt("Vad är din lön före skatt?");
+//     var skatt = prompt("Vad är din skatt?");
+//     var inkomst = Number(brutto) * (100 - Number(skatt)) / 100;
+//     if (inkomst < brutto) {
+//         alert("Din lön är " + inkomst);
+//         loop = false;
+//     }
+//     else (alert("du måste skriva in en siffra mer symboler eller bokstäver"))
+// }
+
+
+ 
